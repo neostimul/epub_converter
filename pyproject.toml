@@ -1,0 +1,20 @@
+[project]
+name = "epub_converter"
+version = "1.0.0"
+description = "Конвертер в epub"
+authors = [
+    {name = "Nikolay Mozgovih"},  # telegram: "https://t.me/neostimul_work"
+]
+readme = "README.md"
+dynamic = ["dependencies"]
+requires-python = ">3.13,<3.14"
+
+
+[tool.poetry]
+package-mode = false
+
+
+[tool.poetry.dependencies]
+ebook-convert-helper = "*"
+lxml = "*"
+BeautifulSoup4 = "*"
